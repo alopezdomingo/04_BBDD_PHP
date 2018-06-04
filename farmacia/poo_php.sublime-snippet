@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Document</title>
+	<?php include("cnds.php"); ?>
+</head>
+<body>
+	<!-- MENU -->
+	<?php include("menu.php"); ?>
+		<div class="container-fluid">
+			<div class="row"></div>
+		</div>
+	<!-- FOOTER -->
+	<br><br><br>
+	<?php include("footer.php"); ?>
+</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>POO:PHP</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

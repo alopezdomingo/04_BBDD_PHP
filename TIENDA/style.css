@@ -1,0 +1,53 @@
+footer{
+	text-align: center;
+	background-color: #4E5766;
+	color: #fff;
+	padding: 20px 0px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+header{
+	text-align: center;
+	background-color: #4E5766;
+	color: #fff;
+	padding: 20px 0px;
+}
+p{
+	text-align: justify !important;
+}
+.lined{
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+.esp{
+	padding: 15px 15px 15px 15px;
+}
+.jumbotron{
+	background-color: #4E5766 !important;
+	color: #ffffff;
+	text-align: center;
+}
+.link{
+	color: #000000;
+	transition: all ease 1s;
+	text-decoration: none !important;
+}
+.link:hover, .link:active, .link:focus{
+	color: #4E5766;
+	text-decoration: none !important;
+}
+a{
+	text-decoration: none !important;
+}
+a:hover, a:active, a:focus{
+	text-decoration: none !important;
+}
+*|*:link {
+    text-decoration: none !important;
+}
+.imgpro{
+	max-width: 250px;
+	height: auto;
+	padding: 10px 10px 10px 10px;
+}
