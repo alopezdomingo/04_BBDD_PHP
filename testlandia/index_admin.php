@@ -9,9 +9,7 @@
 <body>
 	<!-- MENU -->
 	<?php include("tmpl/menu_admin.php"); ?>
-		<div class="container-fluid">
-			<div class="row"><h1>INDEX ADMIN</h1></div>
-		</div>
+	<?php include("tmpl/dashboard_admin.php"); ?>
 	<!-- FOOTER -->
 	<br><br><br>
 	<?php include("tmpl/footer.php"); ?>
