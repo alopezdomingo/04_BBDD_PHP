@@ -1,10 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 footer{
 	text-align: center;
-	background-color: #f8f9fa!important;
-	color: rgba(0,0,0,.7);
+	background-color: #343a40  !important;
+	border-top: 3px solid #406a80;
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
 	padding: 10px 0px;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
 }
-
+.userb{
+	min-height: 495px;
+	width: 100%;	
+	text-align: center;
+	color: #ffffff!important; 	
+	background: -webkit-linear-gradient(bottom, #93b5ba 0%, #343a40  100%);
+	background: -o-linear-gradient(bottom, #93b5ba 0%, #343a40  100%);
+	background: linear-gradient(to top, #93b5ba 0%, #343a40  100%);
+}
+.userimg{
+	margin-top: 150px;
+	margin-bottom: 30px;
+}
+.rob{
+	font-family: 'Roboto', sans-serif;
+}
+.userp{
+	margin-bottom: 180px;
+}
+.jumbotron{
+	background-color: #ffffff!important; 	
+	border-radius: none!important;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}

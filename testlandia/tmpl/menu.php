@@ -1,7 +1,7 @@
 <?php 
 echo '
 <!-- MENU -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="http://localhost/testlandia/index.php"><img src="img/icon.png">&nbsp;Testlandia</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
