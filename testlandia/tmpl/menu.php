@@ -10,14 +10,14 @@ echo '
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="http://localhost/testlandia/index.php">Inicio</a>
+          <a class="nav-link" href="http://localhost/testlandia/index.php"></a>
         </li>
                  
       </ul>
       <!-- ACCESO CUENTA -->
        	<ul class="nav navbar-nav navbar-right">
         <li class="nav-item"><a class="nav-link" href="reg.php"><i class="fas fa-sign-in-alt"></i> Regístrate</a></li>
-		      <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-user"></i> Acceder</a></li>
+		      <li class="nav-item"><a class="nav-link" href="access.php"><i class="fas fa-user"></i> Acceder</a></li>
 		    </ul>
 	<!-- FIN ACCESO CUENTA -->	
     </div>

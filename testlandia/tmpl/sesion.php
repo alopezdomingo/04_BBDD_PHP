@@ -3,7 +3,7 @@
     session_start();
     if(!isset($_SESSION['nombre']))
     {
-      header("location:index.php?mensaje=1");
+      header("location:index.php");
     }
     else
     {}
