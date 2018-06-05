@@ -3,7 +3,7 @@
     session_start();
     if(!isset($_SESSION['nombre']))
     {
-      header("location:index.php");
+      header("location:./index.php");
     }
     else
     {}

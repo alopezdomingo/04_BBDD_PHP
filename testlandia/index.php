@@ -5,7 +5,7 @@
 	<?php include("tmpl/cnds.php"); ?>
 	<?php include("tmpl/style.php"); ?>
 </head>
-<body>
+<body class="fazul">
 	<!-- MENU -->
 	<?php include("tmpl/menu.php"); ?>
 	<div class="container-fluid userb">

@@ -20,15 +20,16 @@ echo '<div class="nav-side-menu">
                   <a href="#"><i class="fas fa-book fa-lg"></i>&nbsp;&nbsp; Preguntas <span class="arrow"></span></a>
                 </li>  
                 <ul class="sub-menu collapse" id="preguntas">
-                  <li>Ver preguntas</li>
-                  <li>Añadir preguntas</li>
+                  <li><a href="./fPreguntas.php">Añadir preguntas</a></li>
+                  <li><a href="./list_preguntas.php">Ver todas las preguntas</a></li>
+                  <li><a href="./list_preguntas.php">Ver preguntas por categoría</a></li>
                 </ul>
                 
                 <li data-toggle="collapse" data-target="#alumnos" class="collapsed">
                   <a href="#"><i class="fas fa-users fa-lg"></i>&nbsp;&nbsp; Alumnos <span class="arrow"></span></a>
                 </li>  
                 <ul class="sub-menu collapse" id="alumnos">
-                  <li>Ver listado alumnos</li>
+                  <li><a href="./list_alumnos.php">Ver listado alumnos</a></li>
                 </ul>
 
                

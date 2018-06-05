@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
-
+p::-moz-selection { color: white;  background: black; }
+p::selection      { color: white;  background: black; }
 footer{
 	text-align: center;
 	background-color: #343a40  !important;
@@ -10,6 +11,9 @@ footer{
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+}
+.fazul{
+  background-color: #92b4b9;
 }
 .userb{
 	min-height: 495px;
@@ -189,5 +193,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
-
 /*******************************/
+.mtop{
+  margin-top: 30px;
+}
