@@ -12,6 +12,12 @@ footer{
 	bottom: 0;
 	width: 100%;
 }
+table th{
+  text-align: center;
+}
+table td{
+  font-size: 14px; 
+}
 .fazul{
   background-color: #92b4b9;
 }

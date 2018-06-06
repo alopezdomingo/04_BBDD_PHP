@@ -7,8 +7,8 @@
 </head>
 <body>
 	<?php include ("tmpl/menu.php"); ?>
-	<div class="jumbotron text-center">
-		<h1>Regístrate</h1>
+	<div class="jumbotron">
+		<h1 class="text-center">Regístrate</h1>
 	</div>
 	<!-- ------------- -->
 	<div class="container-fluid">

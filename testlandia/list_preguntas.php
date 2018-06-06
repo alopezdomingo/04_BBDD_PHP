@@ -45,15 +45,15 @@
 					$registros = mysqli_query($conexion,"select * from preguntas") or die("Error al realizar la consulta");
 				?>
 				<!-- TABLA CON RESULTADOS -->
-				<table class="table table-striped table-light text-center">
+				<table class="table table-striped table-light">
 					  <thead class="">
 						<tr>
 						  <th>id</th>
 						  <th width="30%">Pregunta</th>
-						  <th>Correcta</th>
-						  <th>Opción 1</th>
-						  <th>Opción 2</th>
-						  <th>Opción 3</th>
+						  <th width="15%">Correcta</th>
+						  <th width="15%">Opción 1</th>
+						  <th width="15%">Opción 2</th>
+						  <th width="15%">Opción 3</th>
 						  <th>Modificar</th>
 						  <th>Eliminar</th>
 						</tr>
@@ -63,14 +63,14 @@
 					  {
 						  ?>
 						<tr>
-						  <th><?php echo $reg['id'];?></th>
-						  <th width="30%"><?php echo utf8_encode($reg['pregunta']);?></th>
-						  <td><b class="text-success"><?php echo utf8_encode($reg['rcorrecta']);?></b></td>
+						  <td><?php echo $reg['id'];?></td>
+						  <td width="30%"><?php echo utf8_encode($reg['pregunta']);?></td>
+						  <td class="text-success"><?php echo utf8_encode($reg['rcorrecta']);?></td>
 						  <td><?php echo utf8_encode($reg['r1']);?></td>
 						  <td><?php echo utf8_encode($reg['r2']);?></td>
 						  <td><?php echo utf8_encode($reg['r3']);?></td>
-						  <td><a href="fModificar_preguntas.php?id=<?php echo $reg['id'];?>"><i class="fas green fa-edit"></i></a></td>
-						  <td><a href="eliminar_preguntas.php?id=<?php echo $reg['id'];?>"><i class="fas green fa-trash-alt"></i></a></td>
+						  <td class="text-center"><a href="fModificar_preguntas.php?id=<?php echo $reg['id'];?>"><i class="fas green fa-edit"></i></a></td>
+						  <td class="text-center"><a href="eliminar_preguntas.php?id=<?php echo $reg['id'];?>"><i class="fas green fa-trash-alt"></i></a></td>
 						</tr>
 						<?php
 					  }

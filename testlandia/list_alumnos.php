@@ -42,7 +42,7 @@
 				<!-- BBDD -->
 				<?php
 					$conexion = mysqli_connect("localhost","root","","testlandia") or die("Error al conectar con la base de datos");
-					$registros = mysqli_query($conexion,"select * from usuarios") or die("Error al realizar la consulta");
+					$registros = mysqli_query($conexion,"select * from usuarios where tipo=2") or die("Error al realizar la consulta");
 				?>
 				<!-- TABLA CON RESULTADOS -->
 				<table class="table table-striped table-light text-center">
