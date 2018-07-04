@@ -9,23 +9,15 @@
 <body>
 	<?php include("tmpl/menu.php"); ?>
 	<div class="container-fluid px-0">
-		<div class="jumbotron text-center py-4"><h1>Alta</h1></div>
+		<div class="jumbotron text-center py-4"><h1>Añade mas espadas</h1></div>
 	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 offset-3 text-center">
 				<form method="get" action="alta.php">
 					<div class="form-group text-left">
-						<label for="nombre">Nombre del Producto</label>
+						<label for="nombre">Nombre</label>
 						<input type="text" class="form-control" id="nombre" name="nombre">
-					</div>
-					<div class="form-group text-left">
-						<label for="categoria">Categoría</label>
-						<input type="text" class="form-control" id="categoria" name="categoria">
-					</div>
-					<div class="form-group text-left">
-						<label for="cantidad">Cantidad</label>
-						<input type="number" class="form-control" id="cantidad" name="cantidad">
 					</div>
 					<div class="form-group text-left">
 						<label for="precio">Precio</label>

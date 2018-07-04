@@ -9,7 +9,7 @@
 <body>
 	<?php include("tmpl/menu.php"); ?>
 	<div class="container-fluid px-0">
-		<div class="jumbotron text-center py-4"><h1>Listado</h1></div>
+		<div class="jumbotron text-center py-4"><h1>Listado de espadas</h1></div>
 	</div>
 	<div class="container">
 		<div class="row">
@@ -20,25 +20,31 @@
 						$cartel = $_REQUEST['control'];
 						if ($cartel==1){
 						?>
-						<p class="alert alert-success">Alta realizada con éxito</p>
+						<p class="alert alert-success">Espada añadida</p>
 						<?php
 						}
 						else if ($cartel==2)
 							{
 							?>
-							<p class="alert alert-danger">Producto eliminado</p>
+							<p class="alert alert-danger">Espada eliminada</p>
+						<?php
+							}
+							else if ($cartel==4)
+							{
+							?>
+							<p class="alert alert-light">¡Bienvenido! <i class="far fa-smile"></i> </p>
 						<?php
 							}
 						else {
 							?>
-							<p class="alert alert-secondary">Producto modificado correctamente</p>
+							<p class="alert alert-secondary">Espada modificada correctamente</p>
 							<?php
 							}
 					}
 					?>
 					
 				</div>
-				<div class="col-md-6 text-right"><p class="alert alert-light"><a class="alert-link" href="fAlta.php">Añade mas productos</a> </p></div>
+				<div class="col-md-6 text-right"><p class="alert alert-light"><a class="alert-link" href="fAlta.php">Añade mas espadas</a> </p></div>
 		</div>
 		<div class="row">
 			<div class="col-md-12">
@@ -49,10 +55,8 @@
 				<table class="table table-striped table-light text-center">
 			  <thead class="">
 				<tr>
-				  <th>Código</th>
+				  <th>ID</th>
 				  <th>Nombre</th>
-				  <th>Categoría</th>
-				  <th>Cantidad</th>
 				  <th>Precio</th>
 				  <th>Modificar</th>
 				  <th>Eliminar</th>
@@ -63,13 +67,11 @@
 			  {
 				  ?>
 				<tr>
-				  <th><?php echo $reg['codigo'];?></th>
+				  <th><?php echo $reg['id'];?></th>
 				  <td><?php echo $reg['nombre'];?></td>
-				  <td><?php echo $reg['categoria'];?></td>
-				  <td><?php echo $reg['cantidad'];?></td>
 				  <td><?php echo $reg['precio'];?>&nbsp;€</td>
-				  <td><a href="fModificar.php?codigo=<?php echo $reg['codigo'];?>"><i class="fas green fa-edit"></i></a></td>
-				  <td><a href="eliminar.php?cod=<?php echo $reg['codigo'];?>"><i class="fas green fa-trash-alt"></i></a></td>
+				  <td><a href="fModificar.php?id=<?php echo $reg['id'];?>"><i class="fas green fa-edit"></i></a></td>
+				  <td><a href="eliminar.php?id=<?php echo $reg['id'];?>"><i class="fas green fa-trash-alt"></i></a></td>
 				</tr>
 				<?php
 			  }

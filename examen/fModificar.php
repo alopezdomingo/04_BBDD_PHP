@@ -9,32 +9,24 @@
 <body>
 	<?php include("tmpl/menu.php"); ?>
 	<div class="container-fluid px-0">
-		<div class="jumbotron text-center py-4"><h1>Modificar</h1></div>
+		<div class="jumbotron text-center py-4"><h1>Modificar espada</h1></div>
 	</div>
 	<div class="container">
 		<?php
-		$codigo= $_REQUEST['codigo'];
-		$registro = mysqli_query($conexion, "select * from productos where codigo=$codigo") or die("Error");
+		$id= $_REQUEST['id'];
+		$registro = mysqli_query($conexion, "select * from productos where id=$id") or die("Error");
 		$reg=mysqli_fetch_array($registro);		
 	?>
 		<div class="row">
 			<div class="col-md-6 offset-3 text-center">
 				<form method="get" action="modificar.php">
 					<div class="form-group text-left">
-						<label for="codigo">Código del producto</label>
-						<input type="text" class="form-control" id="codigo" name="codigo" readonly value="<?php echo $reg['codigo']; ?>">
+						<label for="id">Código de la espada</label>
+						<input type="text" class="form-control" id="id" name="id" readonly value="<?php echo $reg['id']; ?>">
 					</div>
 					<div class="form-group text-left">
-						<label for="nombre">Nombre del Producto</label>
+						<label for="nombre">Nombre de la espada</label>
 						<input type="text" class="form-control" id="nombre" name="nombre" value="<?php echo $reg['nombre'];?>">
-					</div>
-					<div class="form-group text-left">
-						<label for="categoria">Categoría</label>
-						<input type="text" class="form-control" id="categoria" name="categoria" value="<?php echo $reg['categoria'];?>">
-					</div>
-					<div class="form-group text-left">
-						<label for="cantidad">Cantidad</label>
-						<input type="number" class="form-control" id="cantidad" name="cantidad" value="<?php echo $reg['cantidad'];?>">
 					</div>
 					<div class="form-group text-left">
 						<label for="precio">Precio</label>

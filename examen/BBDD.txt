@@ -1,0 +1,9 @@
+CREATE TABLE productos (id INT (3) AUTO_INCREMENT NOT null, nombre varchar(50) NOT NULL, precio FLOAT NOT NULL, PRIMARY KEY (id));
+
+CREATE TABLE clientes (email varchar(100) NOT NULL, pass VARCHAR(100) NOT NULL, PRIMARY KEY (email));
+
+INSERT INTO `productos`( `nombre`, `precio`) VALUES ("Florete",500),("Katana",600),("Sable",500)
+
+INSERT INTO `clientes`(`email`, `pass`) VALUES ("usuario@usuario.com","f8032d5cae3de20fcec887f395ec9a6a")
+
+MD5 hash for usuario is : f8032d5cae3de20fcec887f395ec9a6a
