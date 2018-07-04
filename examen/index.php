@@ -10,11 +10,11 @@
 	<div class="container mt-5">
 		<div class="row">
 				<div class="col-md-1">&nbsp;</div>
-				<div class="col-md-3 alert alert-light text-center"><a class="alert-link"  href="listado.php"> VER TODAS LAS ESPADAS</a></div>
+				<div class="col-md-3 alert alert-light text-center"><a class="alert-link"  href="listado.php"> <img src="img/swords.png"><br> VER TODAS LAS ESPADAS</a></div>
 				<div class="col-md-1">&nbsp;</div>
-				<div class="col-md-3 alert alert-light text-center"><a class="alert-link" href=".php"> AÑADIR NUEVAS ESPADAS</a></div>
+				<div class="col-md-3 alert alert-light text-center"><a class="alert-link" href="fAlta.php"><img src="img/sword.png"><br>  AÑADIR NUEVAS ESPADAS</a></div>
 				<div class="col-md-1">&nbsp;</div>
-				<div class="col-md-3 alert alert-light text-center"><a class="alert-link" href="fLogin.php"> ACCEDE A TU CUENTA</a></div>
+				<div class="col-md-3 alert alert-light text-center"><a class="alert-link" href="fLogin.php"><img src="img/knight.png"><br>  ACCEDE A TU CUENTA</a></div>
 		</div>
 	</div>
 	<!-- FOOTER -->
