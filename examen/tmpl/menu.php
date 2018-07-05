@@ -10,10 +10,10 @@ echo '
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="examen/listado.php">LISTADO</a>
+          <a class="nav-link" href="./listado.php">LISTADO</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="examen/fAlta.php">ALTA</a>
+          <a class="nav-link" href="./fAlta.php">ALTA</a>
         </li>
         
       </ul>
